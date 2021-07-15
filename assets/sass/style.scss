@@ -1,0 +1,47 @@
+body {
+    background: radial-gradient(circle, rgba(78,26,124,1) 0%, rgba(0,0,0,1) 78%);
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.txt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+    ;
+    blockquote {
+        font-size: 40px;
+        width: 500px;
+        text-align: left;
+        grid-column-start: 2 ;
+        grid-row-start: 1 ;
+        align-content: center;
+    }
+    img {
+        height: 300px;
+        border: 10px outset white;
+        grid-row-start: 1;
+        grid-column-start: 3;
+        align-content: center
+    }
+}
+
+p {
+    font-size: 80px;
+}
+
+
+
+
+hr {
+    width: 300px;
+    height: 2px;
+    background-color: #7d600b;
+    color: transparent;
+    margin-bottom: 100px;
+    margin-top: -20px;
+}

@@ -1,0 +1,56 @@
+body {
+  background: radial-gradient(circle, #4e1a7c 0%, black 78%);
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.txt {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 2fr 1fr;
+      grid-template-rows: 2fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.txt blockquote {
+  font-size: 40px;
+  width: 500px;
+  text-align: left;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.txt img {
+  height: 300px;
+  border: 10px outset white;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+p {
+  font-size: 80px;
+}
+
+hr {
+  width: 300px;
+  height: 2px;
+  background-color: #7d600b;
+  color: transparent;
+  margin-bottom: 100px;
+  margin-top: -20px;
+}
+/*# sourceMappingURL=style.css.map */
